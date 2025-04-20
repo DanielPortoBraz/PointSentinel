@@ -3,7 +3,7 @@
 
 ## 📌 Descrição
 
-**PointSentinel** é um sistema embarcado desenvolvido com o microcontrolador **Raspberry Pi Pico** e a placa **BitDogLab**, cujo objetivo é monitorar a posição de um objeto em movimento próximo a uma região de perigo ou acesso restrito. Através de um joystick, é possível movimentar um ponto (objeto) em um espaço simulado. Caso este objeto se aproxime demais da área restrita previamente definida, alertas visuais e sonoros são emitidos.
+**PointSentinel** é um sistema embarcado desenvolvido com o microcontrolador **RP2040** e a placa **BitDogLab**, cujo objetivo é monitorar a posição de um objeto em movimento próximo a uma região de perigo ou acesso restrito. Através de um joystick, é possível movimentar um ponto (objeto) em um espaço simulado. Caso este objeto se aproxime demais da área restrita previamente definida, alertas visuais e sonoros são emitidos. Este projeto tem fins de revisão, portanto não consiste numa aplicação real, sendo apenas uma simulação.
 
 ## Funcionalidades
 
@@ -50,8 +50,7 @@ PointSentinel/
 │   ├── font.h                # Fonte 5x5 utilizada no display
 ├── ssd1306.c                 # Implementação das funções do display OLED
 ├── animacoes.h               # Cores animadas para cada nível de proximidade
-├── ws2818b.pio               # Programa PIO para controlar a matriz de LEDs
-└── README.md                 # Este documento
+└── ws2818b.pio               # Programa PIO para controlar a matriz de LEDs
 ```
 
 ## Como compilar
@@ -65,13 +64,6 @@ PointSentinel/
    make
    ```
 4. Grave o `.uf2` gerado na memória do Pico via USB.
-
-## Possibilidades de expansão
-
-- Envio de dados por Wi-Fi com o **Raspberry Pico W**
-- Registro de histórico de alertas
-- Monitoramento remoto via dashboard
-- Inclusão de sensores de presença ou GPS (para monitoramento real)
 
 ## Autor
 
