@@ -64,6 +64,9 @@ PointSentinel/
    make
    ```
 4. Grave o `.uf2` gerado na memória do Pico via USB.
+   
+## Vídeos de demonstração
+https://youtube.com/playlist?list=PLaN_cHSVjBi9KTNnccCo4pWgk_48R7ufW&si=bLlWi2NyiAZK40g5
 
 ## Autor
 
